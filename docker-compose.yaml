@@ -1,0 +1,10 @@
+version: '33'
+
+services:
+  web:
+    image: reactjs
+    ports:
+      - "1234:80"
+    volumes:
+      - ./build:/var/www/html
+
